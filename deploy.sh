@@ -14,3 +14,4 @@ kubectl apply -f ./kubernetes-manifests/currencyservice.yaml
 kubectl apply -f ./kubernetes-manifests/cartservice.yaml
 kubectl apply -f ./kubernetes-manifests/frontend.yaml
 kubectl apply -f ./kubernetes-manifests/adservice.yaml
+kubectl apply -f ./kubernetes-manifests/loadgenerator.yaml
