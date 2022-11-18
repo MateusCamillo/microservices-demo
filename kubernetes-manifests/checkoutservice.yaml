@@ -41,6 +41,7 @@ spec:
             privileged: false
             readOnlyRootFilesystem: true
           image: checkoutservice
+          imagePullPolicy: ifNotPresent
           ports:
           - containerPort: 5050
           readinessProbe:

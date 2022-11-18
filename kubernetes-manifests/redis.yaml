@@ -40,6 +40,7 @@ spec:
           privileged: false
           readOnlyRootFilesystem: true
         image: redis:alpine
+        imagePullPolicy: ifNotPresent
         ports:
         - containerPort: 6379
         readinessProbe:
