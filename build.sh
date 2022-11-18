@@ -10,3 +10,4 @@ docker build ./src/currencyservice -t currencyservice
 docker build ./src/cartservice/src -t cartservice
 docker build ./src/frontend -t frontend
 docker build ./src/adservice -t adservice
+docker build ./src/loadgenerator -t loadgenerator
